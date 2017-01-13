@@ -11,8 +11,8 @@
    ========================================================================== */
 
 html {
-  font-family: arial; /* 1 */
-  line-height: 3; /* 2 */
+  font-family: sans-serif; /* 1 */
+  line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
@@ -26,7 +26,6 @@ html {
 
 body {
   margin: 0;
-  background: blue;
 }
 
 /**
@@ -47,6 +46,10 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
