@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+}
+
+#mobileLogo {
+  height: 35px;
+}
+
+#hamburger {
+  width: 25px;
+  height: 25px;
+  align-self: center;
+}
+
+#upperImage {
+  /*width: 125%;
+  margin: auto;*/
+  width: 100%;
+  align-self:center;
+}
+
+.upperImageSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#heading {
+  text-transform: uppercase;
+}
+.upperText {
+  color: white;
+  position: absolute;
+  top: 0;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+#orangeText {
+  color: #FF803A;
+}
+
+#greenText {
+  color: #BDD436;
+}
+
+#heading2nd {
+  text-transform: capitalize;
+}
+
+.upperWhiteLine {
+  width: 50px;
+  border-top: 10px white solid;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  position: absolute;
+  bottom: 12%;
+}
+
+#topButton {
+  width: 100%;
+}
+
+button {
+  background-color: #BDD436;
+  border-radius: 20px;
+  color: white;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  height: 40px;
+}
+
+.secondTextSection {
+  display: flex;
+  font-size: .9em;
+}
+
+.secondTextSection .upperWhiteLine {
+  position: relative;
+  top: 15%;
+}
+
+.description {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #6A787C;
+  width: 90%;
+  display: flex;
+  align-self: center;
+}
